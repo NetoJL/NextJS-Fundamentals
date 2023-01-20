@@ -1,4 +1,4 @@
-export default function jsx(){
+export default function Jsx(){
 
     const title = <h1>JSX is a central concept</h1>
 
