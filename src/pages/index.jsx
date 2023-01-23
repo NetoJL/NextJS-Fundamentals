@@ -13,6 +13,7 @@ export default function Home() {
 			<Navigator text="Example" route="/example" />
 			<Navigator text="JSX" route="/jsx" />
 			<Navigator text="Navigation #01" route="/navigation" />
+			<Navigator text="Navigation #02" route="/customer/pe-2/123" color='green' />
 		</div>
 	);
 }
