@@ -1,9 +1,10 @@
+import Navigator from "@/components/Navigator";
 import Link from "next/link";
 
 export default function Home() {
 	return (
 		<div>
-			<Link href="/stylish">Stylish</Link>
+			<Navigator />
 		</div>
 	);
 }
