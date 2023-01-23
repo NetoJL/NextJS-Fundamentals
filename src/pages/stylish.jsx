@@ -1,11 +1,12 @@
-import styles from '../styles/Stylish.module.css'
-import Link from 'next/link'
+import styles from "../styles/Stylish.module.css";
+import Layout from '../components/Layout'
 
 export default function Stylish() {
-    return (
-        <div className={styles.purple}>
-            <Link href="/">Back</Link>
-            <h1>Style using CSS Modules</h1>
-        </div>
-    )
+	return (
+		<Layout title="CSS module example">
+			<div className={styles.purple}>
+				<h1>Style using CSS Modules</h1>
+			</div>
+		</Layout>
+	);
 }
