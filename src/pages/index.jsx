@@ -24,6 +24,21 @@ export default function Home() {
 				route="/state"
 				color="yellow"
 			/>
+			<Navigator
+				text="API integration"
+				route="/integration"
+				color="red"
+			/>
+			<Navigator
+				text="Static content"
+				route="/static"
+				color="#fa054a"
+			/>
+			<Navigator
+				text="Dinamic content"
+				route="/dinamic"
+				color="#fa05"
+			/>
 		</div>
 	);
 }
