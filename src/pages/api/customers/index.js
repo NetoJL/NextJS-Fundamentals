@@ -11,6 +11,7 @@ function handleGet(req, res) {
     res.status(200).json({
         id: 3,
         name: 'Neto',
-        age: 20
+        age: 20,
+        email: 'zeneto@gmail.com'
     })
 }
